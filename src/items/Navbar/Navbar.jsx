@@ -13,9 +13,7 @@ const Navbar = () => {
   const [expire, setExpire] = useState("");
   const navigate = useNavigate();
 
-  useEffect(() => {
-    RefreshToken();
-  }, []);
+  RefreshToken();
 
   const RefreshToken = async () => {
     try {
