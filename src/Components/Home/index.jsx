@@ -1,5 +1,7 @@
 import ButtonNavigasi from "../Button_navigasi";
 import Navbar from "../../items/Navbar/Navbar";
+import { useState, useEffect } from "react";
+import axios from "axios";
 const Home = () => {
   return (
     <>
