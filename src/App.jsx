@@ -7,14 +7,18 @@ import Krs from "./Components/Krs";
 import Berita from "./Components/Berita/Berita";
 import Khs from "./Components/KHS";
 import Login from "./Components/Login";
+import Dashboard from "./Components/Dashboard";
+import axios from "axios";
+axios.defaults.withCredentials = true;
 
 function App() {
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/berita" element={<Berita />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="/krs" element={<Krs />} />
