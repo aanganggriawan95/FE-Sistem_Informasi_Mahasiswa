@@ -9,6 +9,8 @@ import Khs from "./Components/KHS";
 import Login from "./Components/Login";
 import Dashboard from "./Components/Dashboard";
 import axios from "axios";
+import Jadwal from "./Components/Jadwal";
+
 axios.defaults.withCredentials = true;
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/jadwal" element={<Jadwal />} />
           <Route path="/berita" element={<Berita />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="/krs" element={<Krs />} />

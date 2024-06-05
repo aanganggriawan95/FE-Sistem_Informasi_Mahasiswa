@@ -18,7 +18,7 @@ const Home = () => {
           {/* Jadwal Kuliah */}
           <div className="py-6 flex justify-between items-center">
             <h1 className="font-bold text-xl">Jadwal Kuliah Hari ini</h1>
-            <img src="/Vector.png" alt="" />
+            <a href="/jadwal"><img src="/Vector.png" alt="" /></a>
           </div>
           <div className="w-full flex border rounded-2xl shadow-md">
             <div className="flex py-3 flex-col w-[30%] justify-center items-center">
